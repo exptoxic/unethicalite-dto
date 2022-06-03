@@ -7,7 +7,7 @@ plugins {
 apply<MavenPublishPlugin>()
 
 group = "net.unethicalite"
-version = "0.0.2"
+version = "0.0.5"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
