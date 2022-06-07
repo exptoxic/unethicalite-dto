@@ -7,11 +7,15 @@ plugins {
 apply<MavenPublishPlugin>()
 
 group = "net.unethicalite"
-version = "0.0.5"
+version = "0.0.7"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    implementation("jakarta.validation:jakarta.validation-api:2.0.2")
 }
 
 tasks.withType<KotlinCompile> {
