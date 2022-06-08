@@ -13,4 +13,8 @@ data class WorldPointDto(
     @field:Min(0)
     @field:Max(3)
     val plane: Int
-)
+) {
+    override fun toString(): String {
+        return "$x $y $plane"
+    }
+}
