@@ -18,7 +18,7 @@ data class TileFlagDto(
     @field:Max(3)
     val z: Int,
     @field:Min(0)
-    @field:Max(1)
+    @field:Max(0xFFFFFF)
     val flag: Int,
     @field:Min(0)
     @field:Max(65534)
