@@ -7,5 +7,6 @@ data class PluginRepoDto(
     val repoName: String,
     val ownerId: String,
     val messageId: String?,
+    val unethicalApi: Boolean,
     val plugins: List<PluginBootstrapDto>
 )
